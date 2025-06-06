@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Movie Search Application</title>
+</head>
+<body>
+	<!-- Navigation Bar -->
+<nav class="navbar">
+  <div class="navbar-container">
+    <h1 class="site-title">🎬 Movies & Shows Explorer</h1>
+
+    <!-- Mobile Hamburger -->
+    <div class="menu-toggle" id="mobileMenuToggle">&#9776;</div>
+
+    <!-- Navigation Links -->
+    <ul class="nav-links" id="navLinks">
+      <li><a href="MovieSearchApp.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="favorites.html">Favorites ❤️</a></li>
+    </ul>
+  </div>
+</nav>
+	
+	<div class = "center-wrapper">
+    	<header class = "page-header">
+        	<h1>Movies and Shows Explorer</h1>
+		</header>
+     
+    	<div class = "search-container">
+    		<div class = "search-box">
+        	<input type="text" id="searchInput" placeholder="Search for a movie or a show" autocomplete="off">
+        	<button onclick="searchMovies()">Search</button>
+        	</div>
+    	</div>
+	</div>
+                
+    <div id="DisplayMovies"></div>
+        
+    <div id = "movieModal" class = "modal">
+    	<div id = "modalContent" class = "modal-content"></div>
+    </div>
+    
+    <section id="favoritesSection">
+  		<h2>Your Favorite Movies</h2>
+  		<div id="FavoritesGrid" class="movie-grid"></div>
+	</section>
+
+    <script src="index.js"></script>
+    
+    <script>
+  	const toggle = document.getElementById('mobileMenuToggle');
+  	const navLinks = document.getElementById('navLinks');
+
+  	toggle.addEventListener('click', () => {
+    	navLinks.classList.toggle('active');
+  	});
+</script>
+    
+    
+</body>
+</html>
+
+

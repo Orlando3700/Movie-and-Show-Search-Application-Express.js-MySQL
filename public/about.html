@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About - Movie App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <div class="navbar-container">
+      <h1 class="site-title">🎬 Movies & Shows Explorer</h1>
+      <div class="menu-toggle" id="mobileMenuToggle">&#9776;</div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="MovieSearchApp.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="favorites.html">Favorites ❤️</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- About Section -->
+  <main class="about-section">
+    <h2>About This App</h2>
+    <p>
+      Welcome to the Movies & Shows Explorer! This application allows you to search for your favorite movies and TV shows using real-time data from a public API. You can browse through results, view detailed info, and even save your favorites.
+    </p>
+    <p>
+      This app was created as a personal project to practice front-end and back-end web development using HTML, CSS, JavaScript, Express.js, API, and a MySQL database. The goal is to provide a simple and clean movie discovery experience.
+    </p>
+  </main>
+
+  <script>
+    const toggle = document.getElementById('mobileMenuToggle');
+    const navLinks = document.getElementById('navLinks');
+    toggle.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+    });
+  </script>
+  
+  <style>
+  .about-section {
+    animation: fadeIn 0.6s ease-in-out forwards;
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  @keyframes fadeIn {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+</style>
+
+</body>
+</html>
