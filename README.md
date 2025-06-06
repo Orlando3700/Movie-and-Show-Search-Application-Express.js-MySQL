@@ -46,7 +46,6 @@ A sleek and responsive web application that lets users search for movies and TV 
 
 ---
 
-- .gitignore
 - README.md
 
 ---
