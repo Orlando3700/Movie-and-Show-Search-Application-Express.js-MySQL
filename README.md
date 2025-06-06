@@ -5,42 +5,42 @@ A sleek and responsive web application that lets users search for movies and TV 
 ---
 
 🛠️ Built With
-HTML, CSS, JavaScript (Frontend)
-Express.js (Node.js framework)
-MySQL (Relational Database)
-Fetch API for client-server communication
+- HTML, CSS, JavaScript (Frontend)
+- Express.js (Node.js framework)
+- MySQL (Relational Database)
+- Fetch API for client-server communication
 
 ---
 
 🚀 Features
-🔍 Search movies and TV shows
-💾 Save favorite movies
-❤️ View your favorites on a separate page
-📱 Fully responsive design with smooth transitions
-🌐 Clean navigation with About & Favorites pages
+- 🔍 Search movies and TV shows
+- 💾 Save favorite movies
+- ❤️ View your favorites on a separate page
+- 📱 Fully responsive design with smooth transitions
+- 🌐 Clean navigation with About & Favorites pages
 
 ---
 
 📂 Project Structure
-project-folder/
- public/
- MovieSearchApp.html
- favoritesPage.js
- favorites.html
- about.html
- style.css
- index.js
+- project-folder/
+ - public/
+ - MovieSearchApp.html
+ - favoritesPage.js
+ - favorites.html
+ - about.html
+ - style.css
+ - index.js
 
-server.js
-MovieSearchAppDatabase.sql
-MovieSearchAppDatabase2.sql
+- server.js
+- MovieSearchAppDatabase.sql
+- MovieSearchAppDatabase2.sql
 
-routes/
- favorites.js
+- routes/
+ - favorites.js
 
-.env
-.gitignore
-README.md
+- .env
+- .gitignore
+- README.md
 
 ---
 
