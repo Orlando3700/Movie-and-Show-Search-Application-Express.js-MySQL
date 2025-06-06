@@ -1,4 +1,4 @@
-🎬 Movie Search Application
+# 🎬 Movie Search Application
 
 A sleek and responsive web application that lets users search for movies and TV shows, view details, and save favorites — powered by an Express.js + MySQL backend.
 
@@ -23,20 +23,26 @@ A sleek and responsive web application that lets users search for movies and TV 
 
 📂 Project Structure
 - project-folder/
- - public/
- - MovieSearchApp.html
- - favoritesPage.js
- - favorites.html
- - about.html
- - style.css
- - index.js
+- public/
+- MovieSearchApp.html
+- favoritesPage.js
+- favorites.html
+- about.html
+- style.css
+- index.js
+
+-
 
 - server.js
 - MovieSearchAppDatabase.sql
 - MovieSearchAppDatabase2.sql
 
+-
+
 - routes/
- - favorites.js
+- favorites.js
+
+-
 
 - .env
 - .gitignore
